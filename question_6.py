@@ -3,6 +3,7 @@ from selenium.webdriver.chrome.service import Service
 import pyautogui as pg
 from PIL import Image
 import os
+import time
 
 s = Service(r'C:\Programação\Python\chromedriver.exe')
 
@@ -25,5 +26,4 @@ os.system('taskkill /f /im Microsoft.Photos.exe')
 
 print("________________________")
 print("Local:")
-print(x, y)
-
+print(f"Top: {y}, Left: {x}")
