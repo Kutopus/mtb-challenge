@@ -19,11 +19,11 @@ browser.close()
 img = Image.open("metrobi.png")
 img.show()
 
-local = pg.locateOnScreen('metrobi_fundo.png', grayscale=True, confidence=.5)
+x, y, z, w = pg.locateOnScreen('metrobi_fundo.png', grayscale=True, confidence=.5)
 
 os.system('taskkill /f /im Microsoft.Photos.exe')
-os.system('cls')
 
-print("Local:\n")
-print(local)
+print("________________________")
+print("Local:")
+print(x, y)
 
