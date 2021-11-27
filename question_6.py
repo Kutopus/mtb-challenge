@@ -1,9 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 import pyautogui as pg
-from PIL import Image
-import os
-import time
 
 s = Service(r'C:\Programação\Python\chromedriver.exe')
 
@@ -15,15 +12,11 @@ url = 'https://metrobi.com/'
 browser.get(url)
 browser.save_screenshot('metrobi.png')
 
-browser.close()
-
-img = Image.open("metrobi.png")
-img.show()
-
 x, y, z, w = pg.locateOnScreen('metrobi_fundo.png', grayscale=True, confidence=.5)
 
-os.system('taskkill /f /im Microsoft.Photos.exe')
+print(f"Coordinates:\nLeft (X): {x} | Top (Y): {y}")
 
-print("________________________")
-print("Local:")
-print(f"Top: {y}, Left: {x}")
+# To test
+# pg.click(x, y)
+
+browser.close()
