@@ -1,0 +1,9 @@
+Para o Equilíbrio de Nash ser entendido mais facilmente, usamos o que é chamado de "Dilema do Prisioneiro", que é uma situação imaginária onde há duas pessoas que a polícia suspeita de serem comparsas de um mesmo crime.
+
+Nessa situação, a polícia fala com os dois suspeitos separadamente e propõe o seguinte:
+
+1. Caso ambos confessem o crime, ambos pegam 3 anos de prisão.
+2. Caso um confesse e outro não, o que confessou pega 1 anos de prisão e o que não confessou pega 10
+3. Caso ambos fiquem calados, ambos pegam 2 anos de prisão.
+
+Pode-se dizer que os dois ficarem calados seria melhor para ambos, porém como um dos prisioneiros pode trair o outro, a melhor estratégia individual seria confessar o crime, onde os dois lados pegariam 3 anos de prisão, o que ocasionaria no chamado "Equilíbrio de Nash", pois cada um dos prisioneiros chega a conclusão que é arriscado depender da estratégia escolhida pelo outro e terem de ficar 10 anos na prisão.
