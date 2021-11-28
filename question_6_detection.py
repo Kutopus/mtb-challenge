@@ -5,15 +5,16 @@ import cv2
 
 # Your Chromedriver path
 s = Service(r'C:\Programação\Python\chromedriver.exe')
-
 browser = webdriver.Chrome(service=s)
+
 # You can change the windows size
-size_x, size_y = 1920, 1080
+# (1920, 1080 / 640, 1136)
+size_x, size_y = 0, 0
 browser.set_window_size(size_x, size_y)
 
 # You can change the URL too
 # (https://metrobi.com / https://deliver.metrobi.com/signin)
-url = 'https://deliver.metrobi.com/signin'
+url = ''
 
 browser.get(url)
 browser.save_screenshot('metrobi.png')
@@ -32,11 +33,10 @@ except TypeError:
 except Exception:
     print("I can't find that, try to change the confidence :)")
 
-print(f"Coordinates:\nLeft (X): {x} | Top (Y): {y}")
-
 # To test
 pg.moveTo(x, y)
 
+print(f"Coordinates:\nLeft (X): {x} | Top (Y): {y}")
 print('----------------------------')
 
 cv2.destroyAllWindows()
