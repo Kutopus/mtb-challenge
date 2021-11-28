@@ -23,7 +23,7 @@ browser.close()
 img = cv2.imread('metrobi.png')
 cv2.setWindowProperty("Image", cv2.WINDOW_AUTOSIZE, cv2.WINDOW_KEEPRATIO)
 cv2.imshow("Image", img)
-cv2.waitKey(1000)
+cv2.waitKey(500)
 
 try:
     x, y, z, w = pg.locateOnScreen('metrobi_fundo.png', grayscale=True, confidence=.5)
