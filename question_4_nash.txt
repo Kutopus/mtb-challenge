@@ -1,9 +1,9 @@
-Para o Equilíbrio de Nash ser entendido mais facilmente, usamos o que é chamado de "Dilema do Prisioneiro", que é uma situação imaginária onde há duas pessoas que a polícia suspeita de serem comparsas de um mesmo crime.
+To make the Nash Equilibrium easier to understand, we use what is called the "Prisoner's Dilemma", which is an imaginary situation where there are two people the police suspect are partners in the same crime.
 
-Nessa situação, a polícia fala com os dois suspeitos separadamente e propõe o seguinte:
+In this situation, the police speak to the two suspects separately and propose the following:
 
-1. Caso ambos confessem o crime, ambos pegam 3 anos de prisão.
-2. Caso um confesse e outro não, o que confessou pega 1 anos de prisão e o que não confessou pega 10
-3. Caso ambos fiquem calados, ambos pegam 2 anos de prisão.
+1. If both confess to the crime, both face 3 years in prison.
+2. If one confesses and the other doesn't, the one who confesses gets 1 year in prison and the one who doesn't get 10
+3. If both remain silent, both face 2 years in prison.
 
-Pode-se dizer que os dois ficarem calados seria melhor para ambos, porém como um dos prisioneiros pode trair o outro, a melhor estratégia individual seria confessar o crime, onde os dois lados pegariam 3 anos de prisão, o que ocasionaria no chamado "Equilíbrio de Nash", pois cada um dos prisioneiros chega a conclusão que é arriscado depender da estratégia escolhida pelo outro e terem de ficar 10 anos na prisão.
+It can be said that the two being silent would be better for both, but as one of the prisoners can betray the other, the best individual strategy would be to confess the crime, and both sides would face 3 years in prison, which would lead to the so-called "Nash Equilibrium", as each of the prisoners comes to the conclusion that it is risky to depend on the strategy chosen by the other and have to spend 10 years in prison.
